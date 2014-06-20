@@ -1,7 +1,7 @@
 colorx
 ===
 
-by xdf
+simple color
 
 ## Installment
 
@@ -11,8 +11,15 @@ $ sudo npm install colorx -g
 
 ## Quick Start
 
-```bash
-$ colorx xdf
+```javascript
+var str = 'colorx';
+var obj = {
+  author: 'xdf'
+};
+var func = function(){
+  console.log('colorx');
+};
+console.log(str.red, obj.yellow, func.blue);
 ```
 
 ## License

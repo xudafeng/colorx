@@ -1,6 +1,6 @@
 {
   "name": "colorx",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "colorx",
   "bin": {
     "colorx": "./bin/colorx"
@@ -10,9 +10,7 @@
     "type": "git",
     "url": "git://github.com/xudafeng/colorx.git"
   },
-  "dependencies": {
-  },
-  "keywords": ["color"],
+  "keywords": ["color","colors","beautiful"],
   "devDependencies": {
     "mocha": "*"
   },

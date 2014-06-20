@@ -15,5 +15,13 @@
 
 var colorx = require('../');
 
-describe('', function(){
-});
+var str = 'colorx';
+var obj = {
+  author: 'xdf'
+};
+var func = function(){
+  console.log('colorx');
+  var c = function(){
+  }
+};
+console.log(str.red, '\n', obj.yellow, '\n', func.blue);
